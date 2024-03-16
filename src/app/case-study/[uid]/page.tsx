@@ -20,7 +20,7 @@ export default async function Page({ params }: { params: Params }) {
   return (
     <Bounded as="article">
       <div className="relative grid place-items-center text-center">
-        {/* <StarGrid /> */}
+        <StarGrid />
         <h1 className="text-7xl font-medium">
           <PrismicText field={page.data.company} />
           <p className="text-lg text-yellow-500">Case Study</p>

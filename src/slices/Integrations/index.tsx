@@ -13,6 +13,7 @@ import StylizedLogoMark from "./StylizedLogoMark";
 import background from "./background.jpg";
 
 import clsx from "clsx";
+import AnimatedContent from "./AnimatedContent";
 // import AnimatedContent from "./AnimatedContent";
 
 /**
@@ -46,8 +47,8 @@ const Integrations = ({ slice }: IntegrationsProps): JSX.Element => {
         <div className="mx-auto mt-6 max-w-md text-balance text-center text-slate-300">
           <PrismicRichText field={slice.primary.body} />
         </div>
-        Animated Content
-        {/* <AnimatedContent slice={slice} /> */}
+
+        <AnimatedContent slice={slice} />
       </div>
     </Bounded>
   );
