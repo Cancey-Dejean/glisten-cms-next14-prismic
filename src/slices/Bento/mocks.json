@@ -1,0 +1,98 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Uncle"
+						}
+					}
+				]
+			},
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Voluptate incididunt enim non excepteur irure in elit non labore adipisicing ex tempor et. Eu nulla occaecat minim."
+						}
+					}
+				]
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"title",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "heading3",
+									"content": {
+										"text": "Salmon"
+									}
+								}
+							]
+						}
+					],
+					[
+						"body",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Eiusmod exercitation non cupidatat excepteur esse."
+									}
+								}
+							]
+						}
+					],
+					[
+						"image",
+						{
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+								"width": 3882,
+								"height": 2584
+							},
+							"url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+							"width": 3882,
+							"height": 2584,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"wide",
+						{
+							"__TYPE__": "BooleanContent",
+							"value": false
+						}
+					]
+				]
+			}
+		]
+	}
+]
